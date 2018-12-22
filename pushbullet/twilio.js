@@ -1,5 +1,5 @@
-var accountSid = 'AC07275e4294f1b0d42623c3ec9559911e';
-var authToken = "650d049a9bd99323fb899ce4b9e84fcc";
+var accountSid = 'id';
+var authToken = "token";
 var client = require('twilio')(accountSid, authToken);
 client.messages.create({
     body: "Alarm",
